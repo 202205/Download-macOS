@@ -178,7 +178,7 @@ jobs:
     runs-on: "macos-latest"
 
     steps:
-      # ...
+      - uses: actions/checkout@v3
       - name: "Build & test"
         run: |
           echo "done!"
