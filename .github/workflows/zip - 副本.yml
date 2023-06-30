@@ -108,7 +108,7 @@ jobs:
         with:
           name: macOS Monterey
           path: "/Applications/Install macOS Monterey.zip"
-- uses: JasonEtco/upload-to-release@master
+      - uses: JasonEtco/upload-to-release@master
         with:
           args: "/Applications/Install macOS Monterey.zip"
           env:
@@ -124,7 +124,7 @@ jobs:
         with:
           name: macOS Big Sur
           path: "/Applications/Install macOS Big Sur.zip"
-- uses: JasonEtco/upload-to-release@master
+      - uses: JasonEtco/upload-to-release@master
         with:
           args: "/Applications/Install macOS Big Sur.zip"
           env:
@@ -140,7 +140,7 @@ jobs:
         with:
           name: macOS Catalina
           path: "/Applications/Install macOS Catalina.zip"
-- uses: JasonEtco/upload-to-release@master
+      - uses: JasonEtco/upload-to-release@master
         with:
           args: "/Applications/Install macOS Catalina.zip"
           env:
@@ -156,7 +156,7 @@ jobs:
         with:
           name: macOS Mojave
           path: "/Applications/Install macOS Mojave.zip"
-- uses: JasonEtco/upload-to-release@master
+      - uses: JasonEtco/upload-to-release@master
         with:
           args: "/Applications/Install macOS Mojave.zip"
           env:
@@ -172,7 +172,7 @@ jobs:
         with:
           name: macOS High Sierra
           path: "/Applications/Install macOS High Sierra.zip"
-- uses: JasonEtco/upload-to-release@master
+      - uses: JasonEtco/upload-to-release@master
         with:
           args: "/Applications/Install macOS High Sierra.zip"
           env:
